@@ -1,0 +1,6 @@
+{
+  "require": {
+    "rilwis/meta-box": "4.*",
+    "twig/twig": "^1.0"
+  }
+}

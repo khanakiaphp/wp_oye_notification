@@ -1,0 +1,29 @@
+.notification-bar {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 99999;
+	text-align: center;
+	background-color: #505050;
+	color: #fff;
+	font-size: 15px;
+}
+
+.notification-bar__inner {
+	padding: 10px;
+}
+.notification-bar__inner__closebtn,
+.notification-bar__inner__closebtn:hover {
+	float: right;
+	color: #fff;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 550px) {
+	.notification-bar__inner {
+		padding: 20px;
+	}	
+}
